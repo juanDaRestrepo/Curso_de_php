@@ -2,6 +2,8 @@
 
 require_once("classes/persona.php");
 
-$persona1 = new Persona('Juan Daniel', 'Restrepo', 23);
+$chileno = new Chileno;
+$chileno->setApellidos("Rengifo", "Flores");
+$chileno->setNombre('Tulio');
 
-echo "El nombre de la persona 1 es ".$persona1->getNombre();
+echo 'Estos son los apellidos '.$chileno->getApellidos();
