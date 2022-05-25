@@ -1,5 +1,5 @@
 <?php
-
+namespace temas;
 class MyClass{
     public $public = "Public";
     protected $protected = "Protected";

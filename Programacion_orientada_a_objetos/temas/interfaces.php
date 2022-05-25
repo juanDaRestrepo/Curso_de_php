@@ -1,5 +1,5 @@
 <?php
-
+namespace temas;
 //Obligar a clases que implementen determinada interfaz 
 //a usar metodos o propiedades, las interfaces tambien se pueden heredar entre ellas
 

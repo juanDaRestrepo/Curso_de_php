@@ -1,5 +1,5 @@
 <?php
-
+namespace temas;
 class Persona{
     public $nombre, $edad;
     public $apellido1, $apellido2;
